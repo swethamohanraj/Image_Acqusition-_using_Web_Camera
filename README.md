@@ -1,4 +1,4 @@
-# Image_Acqusition-_using_Web_Camera
+![image](https://github.com/swethamohanraj/Image_Acqusition-_using_Web_Camera/assets/94228215/e3d8a28f-01ef-4875-b8a5-d0ed68dc028c)# Image_Acqusition-_using_Web_Camera
 ## Aim
  
 Aim:
@@ -13,6 +13,7 @@ iv) Rotate and display the video
 Anaconda - Python 3.7
 ## Algorithm
 ### Step 1:
+Import cv2 and capture the video using cv2.VideoCapture(0)
 <br>
 
 ### Step 2:
