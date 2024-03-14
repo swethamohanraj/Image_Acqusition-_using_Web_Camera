@@ -1,4 +1,3 @@
-![image](https://github.com/swethamohanraj/Image_Acqusition-_using_Web_Camera/assets/94228215/e3d8a28f-01ef-4875-b8a5-d0ed68dc028c)# Image_Acqusition-_using_Web_Camera
 ## Aim
  
 Aim:
@@ -17,15 +16,19 @@ Import cv2 and capture the video using cv2.VideoCapture(0)
 <br>
 
 ### Step 2:
+Write the captured image using cv2.imwrite("NewPicture.jpg",frame)
 <br>
 
 ### Step 3:
+Resize the image using cv2.resize(frame, (0,0), fx = 0.5, fy=0.5)
 <br>
 
 ### Step 4:
+Display the image until the loop gets over
 <br>
 
 ### Step 5:
+Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 <br>
 
 ## Program:
@@ -34,8 +37,16 @@ Import cv2 and capture the video using cv2.VideoCapture(0)
 ### Register No:
 
 ## i) Write the frame as JPG file
-
-
+python```
+import cv2
+videoCaptureObject = cv2.VideoCapture(0)
+while(True):
+    ret,frame = videoCaptureObject.read()
+    cv2.imwrite("NewPicture.jpg",frame)
+    result = False
+videoCaptureObject.release()
+cv2.destroyAllWindows()
+```
 
 
 ## ii) Display the video
