@@ -1,4 +1,4 @@
-<h1> ### EXP-02-Image_Acqusition using Web Camera </h1>
+<h1> EXP-02-Image_Acqusition using Web Camera </h1>
 
 ## Aim
  
